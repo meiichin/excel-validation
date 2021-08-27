@@ -1,0 +1,16 @@
+{
+    "name": "avana/excel-validation",
+    "description": "Custom package for validation excel",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "maatwebsite/excel": "^3.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Avana\\ExcelValidation\\": "src/"
+        }
+    }
+
+}
